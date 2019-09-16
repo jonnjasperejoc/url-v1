@@ -1,5 +1,5 @@
 {
-    "name": "abang",
+    "name": "urlshortener",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -14,14 +14,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "bcryptjs": "^2.4.3",
         "concurrently": "^4.1.2",
         "config": "^3.2.2",
         "express": "^4.17.1",
-        "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.7.0",
-        "nodemon": "^1.19.2",
-        "react-router-dom": "^5.0.1",
-        "socket.io": "^2.2.0"
+        "nodemon": "^1.19.2"
     }
 }
