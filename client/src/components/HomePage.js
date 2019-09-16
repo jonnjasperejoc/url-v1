@@ -69,7 +69,7 @@ class App extends Component {
                                         required
                                     />
                                 </FormGroup>
-                                <Button color="primary">Submit</Button>
+                                <Button color="primary">Shorten</Button>
                                 {this.state.showShortLink && (
                                     <div className="shortLink">
                                         Short URL:
