@@ -1,0 +1,23 @@
+{
+    "name": "urlshortener",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "client-install": "npm install --prefix client",
+        "test": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefex client && npm run build --prefix client"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^4.1.2",
+        "config": "^3.2.2",
+        "express": "^4.17.1",
+        "mongoose": "^5.7.0",
+        "nodemon": "^1.19.2"
+    }
+}

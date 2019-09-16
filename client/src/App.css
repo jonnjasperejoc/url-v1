@@ -1,0 +1,44 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.form-control,
+.btn {
+    font-size: 14px;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.shortLink {
+    display: inline;
+    padding: 0 20px;
+}
+
+.shortLink a {
+    padding: 10px;
+}
